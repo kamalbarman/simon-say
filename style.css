@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.btn{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: 1rem;
+}
+
+.red{
+    background-color: rgb(231, 111, 111);
+    color: white;
+}
+
+.blue{
+    background-color: rgb(103, 103, 237);
+    color: white;
+}
+
+.green{
+    background-color: rgb(91, 225, 91);
+    color: white;
+}
+
+.orange{
+    background-color: rgb(235, 179, 77);
+    color: white;
+}
+.gameFlash{
+    background-color: white;
+}
+
+/* clicked by user */
+.userFlash{
+    background: #f53be8;
+}
